@@ -1,0 +1,2 @@
+Preparing: UPDATE ic_person_visitor_detail SET id = id,update_time = ?,create_time = ?,create_person_id = ?,del_ind = ?,park_num = ?,person_id = ?,apply_in_time = ?,apply_out_time = ? WHERE id = ?
+        2020-09-02 14:23:03.614 [SimpleAsyncTaskExecutor-1] DEBUG c.c.i.d.P.updateByPrimaryKeySelective - ==> Parameters: 2020-09-02 14:23:03.613(Timestamp), 2020-09-02 14:23:03.0(Timestamp), 36464724(String), 2(String), Y0075(String), 36464724(String), 2020-09-02 16:00:00.0(Timestamp), 2020-09-02 17:00:00.0(Timestamp), 1235(Long)
